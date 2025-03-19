@@ -87,7 +87,7 @@
 
         backspace {
             bindings = <&kp BSPC>;
-            key-positions = <11 18>;
+            key-positions = <16 19>;  
         };
     };
 
