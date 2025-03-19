@@ -120,10 +120,21 @@
             bindings = <
 &kp  F1         &kp F2          &kp F3          &kp F4          &kp F5           &kp F6             &kp F7      &kp F8       &kp F9       &kp F10      &kp F11      &kp F12
 &kp C_BKLT_TOG  &rgb_ug RGB_BRI &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_SPI  &rgb_ug RGB_EFF    &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &trans
-&rgb_ug RGB_TOG &rgb_ug RGB_BRD &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_SPD  &rgb_ug RGB_EFR    &trans      &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP &bootloader  &trans//&tog 4
+&rgb_ug RGB_TOG &rgb_ug RGB_BRD &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_SPD  &rgb_ug RGB_EFR    &trans      &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP &bootloader  &tog 4
                                                 &kp LGUI        &trans           &kp SPACE          &kp RET     &trans       &kp RALT
             >;
         };
+
+        steno_layer {
+            // display-name = "Steno";
+            bindings = <
+&none &kp PLV_NM &kp PLV_TL &kp PLV_PL &kp PLV_HL &kp PLV_ST   &kp PLV_ST &kp PLV_FR &kp PLV_PR &kp PLV_LR &kp PLV_TR &kp PLV_DR
+&none &kp PLV_SL &kp PLV_KL &kp PLV_WL &kp PLV_RL &kp PLV_ST   &kp PLV_ST &kp PLV_RR &kp PLV_BR &kp PLV_GR &kp PLV_SR &kp PLV_ZR
+&none &none &none &none &none &none   &none &none &none &none &none &tog 4
+                &kp PLV_A &kp PLV_O &none   &none &kp PLV_E &kp PLV_U
+                >;
+        };
+
         extra1 {
             status = "reserved";
         };

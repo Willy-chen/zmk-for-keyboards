@@ -1,5 +1,7 @@
 manifest:
   remotes:
+    - name: lazerwalker
+      url-base: https://github.com/lazerwalker
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: petejohanson
@@ -17,6 +19,10 @@ manifest:
     - name: infely
       url-base: https://github.com/infely
   projects:
+    - name: zmk
+      remote: lazerwalker
+      revision: multiple-features
+      import: app/west.yml
     - name: zmk
       remote: zmkfirmware
       revision: main
