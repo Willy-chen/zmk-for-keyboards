@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: lazerwalker
       url-base: https://github.com/lazerwalker
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    # - name: zmkfirmware
+    #   url-base: https://github.com/zmkfirmware
     - name: petejohanson
       url-base: https://github.com/petejohanson
     - name: gpeye
@@ -23,10 +23,10 @@ manifest:
       remote: lazerwalker
       revision: multiple-features
       import: app/west.yml
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
+    # - name: zmk
+    #   remote: zmkfirmware
+    #   revision: main
+    #   import: app/west.yml
     - name: hammerbeam-slideshow
       remote: gpeye
       revision: main
