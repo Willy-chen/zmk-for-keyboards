@@ -84,6 +84,11 @@
             bindings = <&kp PIPE>;
             key-positions = <17 18>;
         };
+
+        backspace {
+            bindings = <&kp BSPC>;
+            key-positions = <11 18>;
+        };
     };
 
     keymap {
