@@ -116,8 +116,8 @@
 &kp ESC    &kp Q           &kp W           &kp E        &kp R             &kp T        &kp Y  &kp U             &kp I          &kp O            &kp P               &kp BSPC
 &kp LCTRL  &kp A  &kp S  &hm LCTRL D  &hm LEFT_SHIFT F  &kp G        &kp H  &hm RSHIFT J      &hm RCTRL K    &hm RIGHT_ALT L  &hm RGUI SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z           &kp X           &kp C        &kp V             &kp B        &kp N  &kp M             &kp COMMA      &kp DOT          &kp FSLH            &kp TAB
-                                           &kp LGUI      &mo LOWER       &kp SPACE  &kp RET  &mo UPPER  &to GAMING
-            >;
+                                           &kp LGUI      &mo LOWER       &kp SPACE  &kp RET  &mo RAISE  &to GAMING
+            >
         };
 
         gaming_layer {
@@ -125,7 +125,7 @@
 &kp ESC    &kp Q           &kp W           &kp E        &kp R             &kp T        &kp Y  &kp U             &kp I          &kp O            &kp P               &kp BSPC
 &kp LCTRL  &kp A           &kp S           &kp D        &kp F             &kp G        &kp H  &hm RSHIFT J      &hm RCTRL K    &hm RIGHT_ALT L  &hm RGUI SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z           &kp X           &kp C        &kp V             &kp B        &kp N  &kp M             &kp COMMA      &kp DOT          &kp FSLH            &kp TAB
-                                           &kp LGUI      &mo LOWER       &kp SPACE  &kp RET  &mo UPPER  &to DEFAULT
+                                           &kp LGUI      &mo LOWER       &kp SPACE  &kp RET  &mo RAISE  &to DEFAULT
             >;
         };
 
